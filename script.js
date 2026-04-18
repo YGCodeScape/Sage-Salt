@@ -1,15 +1,9 @@
-/* =============================================
-   SAGE & SALT — script.js
-   Clean, professional GSAP animations
-   ============================================= */
-
 // === GSAP SETUP ===
 gsap.registerPlugin(ScrollTrigger);
 
 // === 1. CUSTOM CURSOR ===
 (function initCursor() {
   const cursor = document.getElementById('cursor');
-  if (!cursor || window.matchMedia('(pointer: coarse)').matches) return;
 
   let mouseX = 0, mouseY = 0;
   let curX = 0, curY = 0;
