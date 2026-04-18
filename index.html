@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sage & Salt — Premium Dining</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor">
+    <div class="cursor-inner"></div>
+  </div>
+
+  <!-- ===== HEADER / HERO ===== -->
+  <header class="header" id="header">
+
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+      <div class="nav-logo">
+        <span class="logo-script">Sage</span>
+        <span class="logo-amp">&amp;</span>
+        <span class="logo-script">Salt</span>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#story" class="nav-link">About</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#events" class="nav-link">Events</a></li>
+        <li><a href="#reserve" class="nav-link">Reserve</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#reserve" class="btn-outline">Book a Table</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home" class="mob-link">Home</a>
+      <a href="#story" class="mob-link">About</a>
+      <a href="#menu" class="mob-link">Menu</a>
+      <a href="#events" class="mob-link">Events</a>
+      <a href="#reserve" class="mob-link">Reserve</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <img
+          src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1800&auto=format&fit=crop&q=80"
+          alt="Restaurant interior"
+          class="hero-img"
+          id="heroImg"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow" id="heroEyebrow">Est. 2018  Mumbai</p>
+        <h1 class="hero-title" id="heroTitle">
+          <span class="line">A Premium &amp;</span>
+          <span class="line italic">Authentic</span>
+          <span class="line">Experience</span>
+        </h1>
+        <p class="hero-sub" id="heroSub">
+          Where every plate tells a story of craft, culture, and passion.
+        </p>
+        <div class="hero-cta" id="heroCta">
+          <a href="#reserve" class="btn-primary">Reserve a Table</a>
+          <a href="#menu" class="btn-ghost">Explore Menu <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+
+    <!-- STATS BAR -->
+    <div class="stats-bar">
+      <div class="stat-item">
+        <strong>12+</strong><span>Years of Culinary Excellence</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <strong>48</strong><span>Signature Dishes</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <strong>4.9★</strong><span>Guest Rating</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <strong>200+</strong><span>Events Hosted</span>
+      </div>
+    </div>
+
+    <!-- OUR STORY -->
+    <section class="story-section" id="story">
+      <div class="story-inner">
+        <div class="story-media reveal-left">
+          <img
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&auto=format&fit=crop&q=80"
+            alt="Chef preparing food"
+            class="story-img"
+          />
+          <div class="story-badge">
+            <span class="badge-script">Since</span>
+            <span class="badge-year">2018</span>
+          </div>
+        </div>
+
+        <div class="story-text reveal-right">
+          <span class="eyebrow">Our Story</span>
+          <h2 class="section-title">Where Flavor<br /><em>Meets Feeling</em></h2>
+          <p>
+            Born from a love of honest ingredients and bold flavors, Sage &amp; Salt
+            was founded with a single belief — great food should move you. Whether
+            you're here for a quiet dinner, a milestone celebration, or simply a
+            perfect cup of coffee, we craft every moment with intention.
+          </p>
+          <p>
+            Our open kitchen is our commitment: nothing to hide, everything to share.
+          </p>
+          <a href="#" class="text-link">
+            Discover our journey <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU INTRO -->
+    <section class="menu-intro" id="menu">
+      <div class="menu-intro-inner">
+        <div class="menu-intro-left reveal-up">
+          <span class="eyebrow">Our Menu</span>
+          <h2 class="section-title">Crafted With<br /><em>Love &amp; Respect</em></h2>
+        </div>
+        <div class="menu-intro-right reveal-up" style="--delay:0.15s">
+          <p>
+            Few things rival the joy of food cooked simply, with tender care.
+            Our chefs treat every ingredient with the respect it deserves —
+            the open kitchen in every Sage &amp; Salt is testimony to that.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== DISHES SECTION ===== -->
+  <section class="dishes-section">
+    <div class="dishes-grid">
+
+      <!-- Appetizer -->
+      <article class="dish-card reveal-card" data-index="01">
+        <div class="dish-card-media">
+          <img
+            src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700&auto=format&fit=crop&q=80"
+            alt="Appetizer"
+            class="dish-img"
+          />
+          <div class="dish-number">01</div>
+        </div>
+        <div class="dish-card-body">
+          <span class="dish-category">Appetizer</span>
+          <h3 class="dish-name">Basil Bruschetta</h3>
+          <p class="dish-desc">
+            Fresh baked sourdough, topped with heirloom tomatoes, basil oil, and a soft-poached egg.
+          </p>
+          <span class="dish-price">₹480</span>
+        </div>
+      </article>
+
+      <!-- Main Dish -->
+      <article class="dish-card reveal-card" data-index="02">
+        <div class="dish-card-media">
+          <img
+            src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=700&auto=format&fit=crop&q=80"
+            alt="Main dish"
+            class="dish-img"
+          />
+          <div class="dish-number">02</div>
+        </div>
+        <div class="dish-card-body">
+          <span class="dish-category">Main Course</span>
+          <h3 class="dish-name">Dum Chicken Biryani</h3>
+          <p class="dish-desc">
+            Slow-cooked in a sealed pot with Indian aromatics, served with raita and saffron broth.
+          </p>
+          <span class="dish-price">₹840</span>
+        </div>
+      </article>
+
+      <!-- Side Dish -->
+      <article class="dish-card reveal-card" data-index="03">
+        <div class="dish-card-media">
+          <img
+            src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=700&auto=format&fit=crop&q=80"
+            alt="Side dish"
+            class="dish-img"
+          />
+          <div class="dish-number">03</div>
+        </div>
+        <div class="dish-card-body">
+          <span class="dish-category">Side Dish</span>
+          <h3 class="dish-name">Heritage Grain Salad</h3>
+          <p class="dish-desc">
+            A vibrant mix of ancient grains, fresh greens, and light-sliced meat with citrus dressing.
+          </p>
+          <span class="dish-price">₹360</span>
+        </div>
+      </article>
+
+      <!-- Dessert -->
+      <article class="dish-card reveal-card" data-index="04">
+        <div class="dish-card-media">
+          <img
+            src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=700&auto=format&fit=crop&q=80"
+            alt="Dessert"
+            class="dish-img"
+          />
+          <div class="dish-number">04</div>
+        </div>
+        <div class="dish-card-body">
+          <span class="dish-category">Dessert</span>
+          <h3 class="dish-name">Velvet Dark Cake</h3>
+          <p class="dish-desc">
+            A rich dark chocolate cake with salted caramel glaze, candied hazelnuts, and cream.
+          </p>
+          <span class="dish-price">₹420</span>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="menu-cta-wrap reveal-up">
+      <a href="#" class="btn-primary">View Full Menu</a>
+    </div>
+  </section>
+
+  <!-- ===== EVENTS ===== -->
+  <section class="events-section" id="events">
+    <div class="events-inner">
+      <div class="events-media reveal-left">
+        <img
+          src="https://images.unsplash.com/photo-1555244162-803834f70033?w=900&auto=format&fit=crop&q=80"
+          alt="Private event"
+          class="events-img"
+        />
+      </div>
+
+      <div class="events-content reveal-right">
+        <span class="eyebrow">Upcoming Events</span>
+        <h2 class="section-title">Moments Worth<br /><em>Gathering For</em></h2>
+        <p>
+          Beyond the best food in the city, Sage &amp; Salt is a place where
+          people come together. From private dining to live evenings — we set
+          the stage, you make the memory.
+        </p>
+
+        <div class="event-card">
+          <div class="event-card-left">
+            <strong class="event-month">DEC</strong>
+            <strong class="event-day">20</strong>
+          </div>
+          <div class="event-card-right">
+            <h4>Barbecue Garden Party</h4>
+            <p>Lunchtime · Casual · Open to All Guests</p>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <div class="event-card-left">
+            <strong class="event-month">JAN</strong>
+            <strong class="event-day">12</strong>
+          </div>
+          <div class="event-card-right">
+            <h4>Chef's Table — Tasting Menu</h4>
+            <p>7:00 PM · Black Tie Optional · Limited Seats</p>
+          </div>
+        </div>
+
+        <a href="#" class="text-link">All Events <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESERVATION ===== -->
+  <section class="reserve-section" id="reserve">
+    <div class="reserve-bg">
+      <img
+        src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=1800&auto=format&fit=crop&q=80"
+        alt="Restaurant ambiance"
+        class="reserve-img"
+        id="reserveImg"
+      />
+      <div class="reserve-overlay"></div>
+    </div>
+
+    <div class="reserve-content reveal-up">
+      <span class="eyebrow light">Reservations</span>
+      <h2 class="reserve-title">Reserve Your<br /><em>Table Tonight</em></h2>
+      <p class="reserve-sub">
+        Walk-ins welcome, but a table is always better when it's yours.
+      </p>
+      <a href="tel:+912200000000" class="btn-primary large">Book Online</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="logo-script">Sage</span>
+          <span class="logo-amp">&amp;</span>
+          <span class="logo-script">Salt</span>
+        </div>
+        <p>Fine dining with a soul. Mumbai's most loved table since 2018.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+          <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+          <a href="#" aria-label="Facebook"><i class="ri-facebook-line"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Visit Us</h4>
+        <p>112 Roosevelt Avenue<br />Bandra West, Mumbai 400050</p>
+        <a href="mailto:info@sageandsalt.com">info@sageandsalt.com</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <ul class="hours-list">
+          <li><span>Mon – Thu</span><span>10 AM – 9 PM</span></li>
+          <li><span>Friday</span><span>4 PM – 11 PM</span></li>
+          <li><span>Sat – Sun</span><span>10 AM – 11 PM</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <nav class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#story">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#events">Events</a>
+          <a href="#reserve">Reserve</a>
+        </nav>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Sage &amp; Salt. All rights reserved.</p>
+      <p>Crafted with care.</p>
+    </div>
+  </footer>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
